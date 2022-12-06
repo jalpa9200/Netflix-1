@@ -1,0 +1,298 @@
+body{
+    margin: 0px 0px;
+}
+.logo{
+    height: 140px;
+    margin-left: 38%;
+    margin-top: -20%;
+}
+.form-select {
+    background-color: #000000;
+    border: 1px solid silver;
+    color: #757575;
+    height: 42px;
+ }
+ .main2.container-fluid {
+    width: auto;
+    margin-right: 0px;
+}
+button.btn.btn-danger {
+    background-color: red;
+    height: 40px;
+    width: 89%;
+    border: 1px solid red;
+}
+.fixed-top {
+    position: absolute;
+}
+#header{
+    height: 720px;
+    /* border: 1px solid peru; */
+    background-image:url('https://i.ibb.co/hmP6vHM/netflix.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 720px;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-bottom: 8px solid #222;
+ }
+ #header h1 {
+    color: #fff;
+    font-size: 72px;
+ }
+ 
+ #header h3{
+    color: #fff;
+ } 
+ #header h5{
+    color: #fff;
+    margin-top: 5%;
+ } 
+ .row {
+    margin: 0px;
+ }
+ .candle{
+    margin-top: 3%;
+ }
+ .candle1{
+    font-size: 17px;
+ }
+ .input-group.mb-3 {
+    height: 18%;
+}
+.button1{
+    background-color: red;
+    border-color: red;
+    width: 24%;
+    font-size: 24px;
+}
+.button1:hover{
+    background-color: red;
+    border-color: red;
+}
+#main1{
+    background-color: #000000;
+}
+#content1{
+    /* height: auto; */
+    /* height: 470px; */
+    height: auto;
+    /* border:1px solid palegreen; */
+    border-bottom: 8px solid #222;
+    /* color: #fff; */
+}
+#content1 img{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 2;
+}
+.content-text{
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 0 3rem 0 0;
+    z-index: 3;
+    color: #fff;
+}
+.container {
+    padding: 45px 5%;
+}
+.video{
+height: 100%;
+    width: 100%;
+}
+.animation{
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 58%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    overflow: hidden;
+    margin-top: -31%;
+    object-fit: contain;
+
+}
+
+#content2{
+    /* height: 470px; */
+    height: auto;
+    /* border:1px solid purple; */
+    border-bottom: 8px solid #222;
+}
+#content2 img{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+#content3{
+    /* height: 470px; */
+    height: auto;
+    /* border:1px solid darkblue; */
+    border-bottom: 8px solid #222;
+}
+#content3 img{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 2;
+}
+.animation1{
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    overflow: hidden;
+    margin-top: -39%;
+    object-fit: contain;
+}
+#content4{
+    /* height: 470px; */
+    height: auto;
+    /* border:1px solid darkred; */
+    border-bottom: 8px solid #222;
+}
+#content4 img{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+#quesitions{
+    height: auto;
+    /* border: 1px solid brown; */
+    border-bottom: 8px solid #222;
+}
+.pipe2{
+    text-align: center;
+    color: #fff;
+    font-size: 49px;
+    padding-bottom: 2%;
+}
+.pipe3{
+    max-width: 81%;
+    margin-left: 9%;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  button.accordion {
+    margin-bottom: 1%;
+    height: 76px;
+    background-color: #303030;
+    color: #eee;
+    font-size: 25px;
+}
+  .active, .accordion:hover {
+    background-color: #373434;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: #303030;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 1%;
+  }
+  .panel p{
+    color: #eee;
+  }
+  .candle3{
+    margin-top: 3%;
+ }
+ .candle2{
+    font-size: 17px;
+ }
+.lili{
+    height: 10% !important;
+    max-width: 80%;
+    margin-left: 10%;
+}
+.button2{
+    background-color: red;
+    border-color: red;
+    width: 24%;
+    font-size: 24px;
+}
+.button2:hover{
+    background-color: red;
+    border-color: red;
+}
+.row1{
+    margin-top: 6%;
+    color: #fff;
+}
+
+#footer{
+    /* height: 450px; */
+    height: auto;
+    /* border: 1px solid green; */
+}
+.container1 {
+    /* border: 1px solid saddlebrown; */
+}
+.container2{
+    padding: 35px 11%;
+}
+.main-search {
+    /* width: 100%; */
+    margin-left: 5%;
+}
+.me-5.d-none.d-lg-block {
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+a {
+    text-decoration: none;
+}
+.main5{
+    width: 14%;
+    margin-left: 2%;
+}
+.end{
+    margin-left: 14%;
+}
+#footer a:hover{
+   text-decoration:underline;
+}
+footer.text-center.text-lg-start.text-muted {
+    margin-top: -1%;
+}
+#footer .mini:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
